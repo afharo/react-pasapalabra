@@ -1,3 +1,6 @@
+[![Node.js CI](https://github.com/afharo/react-pasapalabra/actions/workflows/node.js.yml/badge.svg)](https://github.com/afharo/react-pasapalabra/actions/workflows/node.js.yml)
+[![codecov](https://codecov.io/gh/afharo/react-pasapalabra/branch/main/graph/badge.svg?token=TQ34U44WM2)](https://codecov.io/gh/afharo/react-pasapalabra)
+
 # React Pasapalabra
 
 Project for fun and test out things in React and other _modern_ libraries while building the TV Show _Pasapalabra_ game.
