@@ -30,6 +30,7 @@ jobs:
     # - run: yarn install
     # No need to run it, yarn actions already do. By skipping this, we save 2s
     - run: yarn build --if-present
+    - run: yarn lint
     - run: yarn test --coverage
     - name: Codecov
       uses: codecov/codecov-action@v1.5.2
