@@ -1,24 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Letter from "./components/Letter/Letter";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Letter status={"pending"} letter={"A"} index={0} total={3}/>
+      <Letter status={"resolved"} letter={"B"} index={1} total={3}/>
+      <Letter status={"failed"} letter={"C"} index={2} total={3}/>
     </div>
   );
 }
